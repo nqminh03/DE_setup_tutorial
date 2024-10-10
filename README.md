@@ -97,7 +97,7 @@
 ### 7. **Nghiên cứu & Chuẩn bị tài khoản cá nhân PowerBI/ Excel**:
    - **Mục tiêu**: Sử dụng các công cụ trực quan hóa dữ liệu để tạo báo cáo từ dữ liệu trong DWH.
    - **Công việc chi tiết**:
-     - Hoặc sử dụng Power BI ([Tải Power BI](https://powerbi.microsoft.com/) hoặc **Tải xuống từ Microsoft Store trên Windows) để kết nối với cơ sở dữ liệu và trực quan hóa dữ liệu.
+     - Hoặc sử dụng Power BI ([Tải Power BI](https://powerbi.microsoft.com/) hoặc **Tải xuống từ Microsoft Store trên Windows**) để kết nối với cơ sở dữ liệu và trực quan hóa dữ liệu.
      - Thiết lập kết nối từ Power BI/Google Data Studio tới DWH để truy vấn và trực quan hóa dữ liệu.
 
 ### 8. **Nghiên cứu & Cài đặt Anaconda & Python/Jupyter Notebook** (Đa phần mọi người đều có trong máy rồi nên mình sẽ bỏ qua):

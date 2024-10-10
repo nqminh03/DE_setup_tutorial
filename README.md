@@ -6,7 +6,7 @@
 ### 1. **Nghiên cứu & Cài đặt DWH DBMS Server (MySQL)**:
    - **Mục tiêu**: Cài đặt và cấu hình hệ thống quản trị cơ sở dữ liệu để lưu trữ dữ liệu.
    - **Công việc chi tiết**:
-     - Nghiên cứu sự khác biệt giữa các hệ quản trị cơ sở dữ liệu (DBMS) phổ biến: MSSQL, MySQL, PostgreSQL. [Bài viết](https://www.datacamp.com/blog/sql-server-postgresql-mysql-whats-the-difference-where-do-i-start)[newtab]
+     - Nghiên cứu sự khác biệt giữa các hệ quản trị cơ sở dữ liệu (DBMS) phổ biến: MSSQL, MySQL, PostgreSQL. [Bài viết](https://www.datacamp.com/blog/sql-server-postgresql-mysql-whats-the-difference-where-do-i-start)
      - Quyết định chọn DBMS phù hợp cho dự án.
      - Tải và cài đặt DBMS ([MySQL](https://dev.mysql.com/downloads/installer/)).
      - Cấu hình kết nối cơ sở dữ liệu và kiểm tra bằng cách tạo các bảng mẫu.

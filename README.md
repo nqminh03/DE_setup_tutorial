@@ -1,5 +1,5 @@
 # DE_tutorial
- If you have any questions, please contact [me](https://www.facebook.com/quangminh.nguyen.7946281)[newtab].
+ If you have any questions, please contact [me](https://www.facebook.com/quangminh.nguyen.7946281){:target="_blank"}.
 
 ## Tutorial
  

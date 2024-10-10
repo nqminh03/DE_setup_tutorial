@@ -1,12 +1,12 @@
 # DE_tutorial
- If you have any questions, please contact [FB](https://www.facebook.com/quangminh.nguyen.7946281)
+ If you have any questions, please contact [me](https://www.facebook.com/quangminh.nguyen.7946281)
 
 ## Tutorial
  
 ### 1. **Nghiên cứu & Cài đặt DWH DBMS Server (MySQL)**:
    - **Mục tiêu**: Cài đặt và cấu hình hệ thống quản trị cơ sở dữ liệu để lưu trữ dữ liệu.
    - **Công việc chi tiết**:
-     - Nghiên cứu sự khác biệt giữa các hệ quản trị cơ sở dữ liệu (DBMS) phổ biến: MSSQL, MySQL, PostgreSQL.
+     - Nghiên cứu sự khác biệt giữa các hệ quản trị cơ sở dữ liệu (DBMS) phổ biến: MSSQL, MySQL, PostgreSQL. [Bài viết](https://www.datacamp.com/blog/sql-server-postgresql-mysql-whats-the-difference-where-do-i-start)
      - Quyết định chọn DBMS phù hợp cho dự án.
      - Tải và cài đặt DBMS ([MySQL](https://dev.mysql.com/downloads/installer/)).
      - Cấu hình kết nối cơ sở dữ liệu và kiểm tra bằng cách tạo các bảng mẫu.
@@ -18,7 +18,7 @@
      - Thiết lập các bảng, cột, và mối quan hệ giữa các bảng (relationship) theo mô hình sao hoặc tuyết.
      - Thiết kế các bảng dữ liệu thô và tổng hợp trong DataMart phục vụ cho việc phân tích và báo cáo.
 
-### 3. **Dựng cấu trúc DWH Data Model theo tài liệu cung cấp** *(Mở và chạy lần lượt từng file trong folder **tables**):
+### 3. **Dựng cấu trúc DWH Data Model theo tài liệu cung cấp** *(Mở và chạy lần lượt từng file trong folder **tables**)*:
    - **Mục tiêu**: Xây dựng mô hình dữ liệu cho DWH theo yêu cầu của dự án.
    - **Công việc chi tiết**:
      - Nghiên cứu tài liệu thiết kế dữ liệu DWH, bao gồm các yêu cầu về dữ liệu và báo cáo. [Tổng quan về ER](https://www.guru99.com/vi/er-diagram-tutorial-dbms.html)
@@ -63,20 +63,20 @@
 1. **Xuất ra hình ảnh hoặc PDF**:
    - Nếu bạn muốn xuất EER Diagram ra định dạng hình ảnh hoặc PDF, bạn có thể làm theo các bước đã nêu ở phần trước.
 
-## **Ở mục 4&5, nếu muốn tìm hiểu thêm thì tải thêm mục 4 sử dụng bản trial, ở project này mình sẽ sử dụng Apache Nifi ở mục 5**
+## **Ở mục 4 & 5, nếu muốn tìm hiểu thêm thì tải thêm mục 4, ở project này mình sẽ sử dụng Apache Nifi ở mục 5**
 
-### 4. **Nghiên cứu & Cài đặt công cụ ETL và sử dụng - Talend ETL** (Công cụ này sẽ mất phí):
+### 4. **Nghiên cứu & Cài đặt công cụ ETL và sử dụng - Talend ETL** (Công cụ này sẽ mất phí, có thể sử dụng bản trial):
    - **Mục tiêu**: Sử dụng công cụ ETL để thực hiện quá trình trích xuất, chuyển đổi, và tải dữ liệu từ nguồn vào DWH.
    - **Công việc chi tiết**:
      - Nghiên cứu về Talend ETL ([Tải Talend](https://www.talend.com/products/talend-open-studio/)) và xem cách nó hỗ trợ quá trình ETL.
      - Cài đặt Talend ETL trên máy tính.
      - Tạo các luồng công việc ETL để di chuyển dữ liệu từ các nguồn vào DWH đã tạo, bao gồm trích xuất dữ liệu từ nguồn, làm sạch và chuẩn hóa, sau đó nạp vào DWH.
 
-### 5. **Nghiên cứu & Cài đặt công cụ ETL và sử dụng - Apache Nifi**:
+### 5. **Nghiên cứu & Cài đặt công cụ ETL và sử dụng - Apache Nifi** [Video hướng dẫn](https://www.youtube.com/watch?v=YVK3Wg_DvHc):
    - **Mục tiêu**: Sử dụng Apache Nifi như một công cụ thay thế cho ETL để di chuyển dữ liệu.
    - **Công việc chi tiết**:
-     - Cài đặt Java trước nhé ([Tải Java](
-     - Nghiên cứu Apache Nifi ([Tải Nifi](https://nifi.apache.org/)) và lợi ích của việc sử dụng công cụ này cho ETL.
+     - Cài đặt Java trước nhé ([Tải Java](https://download.oracle.com/java/23/latest/jdk-23_windows-x64_bin.msi) [Hướng dẫn](https://www.youtube.com/watch?v=jPwrWjEwtrw&t=284s)
+     - Nghiên cứu Apache Nifi ([Tải Nifi](https://dlcdn.apache.org/nifi/2.0.0-M4/nifi-2.0.0-M4-bin.zip)).
      - Cài đặt và cấu hình Nifi.
      - Xây dựng luồng dữ liệu trong Nifi để thực hiện ETL, tương tự như cách làm với Talend ETL ở trên.
 
@@ -90,7 +90,7 @@
      - Viết các DAGs (Directed Acyclic Graphs) trong Airflow để tự động hóa quy trình ETL từ các công cụ như Talend hoặc Nifi.
      - Cấu hình các nhiệm vụ như tải dữ liệu, cập nhật DWH, và gửi thông báo khi hoàn thành.
 
-### 7. **Nghiên cứu & Chuẩn bị tài khoản cá nhân Google Locker Studio/ Hoặc PowerBI/ Excel**:
+### 7. **Nghiên cứu & Chuẩn bị tài khoản cá nhân PowerBI/ Excel**:
    - **Mục tiêu**: Sử dụng các công cụ trực quan hóa dữ liệu để tạo báo cáo từ dữ liệu trong DWH.
    - **Công việc chi tiết**:
      - Hoặc sử dụng Power BI ([Tải Power BI](https://powerbi.microsoft.com/) hoặc **Tải xuống từ Microsoft Store trên Windows) để kết nối với cơ sở dữ liệu và trực quan hóa dữ liệu.

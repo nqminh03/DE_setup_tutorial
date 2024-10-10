@@ -75,9 +75,9 @@
 ### 5. **Nghiên cứu & Cài đặt công cụ ETL và sử dụng - Apache Nifi** [Video hướng dẫn](https://www.youtube.com/watch?v=YVK3Wg_DvHc):
    - **Mục tiêu**: Sử dụng Apache Nifi như một công cụ thay thế cho ETL để di chuyển dữ liệu.
    - **Công việc chi tiết**:
-     - Cài đặt Java trước nhé ([Tải Java](https://download.oracle.com/java/23/latest/jdk-23_windows-x64_bin.msi). [Hướng dẫn](https://www.youtube.com/watch?v=jPwrWjEwtrw&t=284s)
+     - Cài đặt Java trước nhé ([Tải Java](https://download.oracle.com/java/23/latest/jdk-23_windows-x64_bin.msi)). [Hướng dẫn](https://www.youtube.com/watch?v=jPwrWjEwtrw&t=284s)
      - Nghiên cứu Apache Nifi ([Tải Nifi](https://dlcdn.apache.org/nifi/2.0.0-M4/nifi-2.0.0-M4-bin.zip)).
-     - Cài đặt và cấu hình Nifi.
+     - Cài đặt [Driver Connection của MySQL](https://dev.mysql.com/downloads/file/?id=530070) [Video hướng dẫn](https://www.youtube.com/watch?v=8aTpDfsYTNQ) và cấu hình Nifi.
      - Xây dựng luồng dữ liệu trong Nifi để thực hiện ETL, tương tự như cách làm với Talend ETL ở trên.
 
 ### 6. **Nghiên cứu & Cài đặt công cụ Orchestration và sử dụng - Apache Airflow** ([Video hướng dẫn](https://www.youtube.com/watch?v=Fl64Y0p7rls):

@@ -72,14 +72,15 @@
      - Cài đặt Talend ETL trên máy tính.
      - Tạo các luồng công việc ETL để di chuyển dữ liệu từ các nguồn vào DWH đã tạo, bao gồm trích xuất dữ liệu từ nguồn, làm sạch và chuẩn hóa, sau đó nạp vào DWH.
 
-### 5. **Nghiên cứu & Cài đặt công cụ ETL và sử dụng - Apache Nifi** [Video hướng dẫn](https://www.youtube.com/watch?v=YVK3Wg_DvHc):
+### 5. **Nghiên cứu & Cài đặt công cụ ETL và sử dụng - Apache Nifi**:
    - **Mục tiêu**: Sử dụng Apache Nifi như một công cụ thay thế cho ETL để di chuyển dữ liệu.
    - **Công việc chi tiết**:
      - Cài đặt Java trước nhé ([Tải Java](https://download.oracle.com/java/23/latest/jdk-23_windows-x64_bin.msi)). [Hướng dẫn](https://www.youtube.com/watch?v=jPwrWjEwtrw&t=284s)
-     - Nghiên cứu Apache Nifi ([Tải Nifi](https://dlcdn.apache.org/nifi/2.0.0-M4/nifi-2.0.0-M4-bin.zip)).
-     - Cài đặt [Driver Connection của MySQL](https://dev.mysql.com/downloads/file/?id=530070) [Video hướng dẫn](https://www.youtube.com/watch?v=8aTpDfsYTNQ) và cấu hình Nifi.
+     - Nghiên cứu Apache Nifi ([Tải Nifi](https://dlcdn.apache.org/nifi/2.0.0-M4/nifi-2.0.0-M4-bin.zip)). [Video hướng dẫn](https://www.youtube.com/watch?v=YVK3Wg_DvHc)
+     - Link truy cập Nifi "https://localhost:8443/nifi/"
+     - Tải và cài đặt [Driver Connection của MySQL](https://dev.mysql.com/downloads/file/?id=530070) ([Video hướng dẫn](https://www.youtube.com/watch?v=8aTpDfsYTNQ)) và cấu hình Nifi.
      - Xây dựng luồng dữ liệu trong Nifi để thực hiện ETL, tương tự như cách làm với Talend ETL ở trên.
-
+    
 ### 6. **Nghiên cứu & Cài đặt công cụ Orchestration và sử dụng - Apache Airflow** ([Video hướng dẫn](https://www.youtube.com/watch?v=Fl64Y0p7rls):
    - **Mục tiêu**: Quản lý và điều phối các quy trình ETL và các công việc khác bằng Apache Airflow.
    - **Công việc chi tiết**:
@@ -89,6 +90,9 @@
      - Cài đặt và thiết lập Airflow trên môi trường phát triển.
      - Viết các DAGs (Directed Acyclic Graphs) trong Airflow để tự động hóa quy trình ETL từ các công cụ như Talend hoặc Nifi.
      - Cấu hình các nhiệm vụ như tải dữ liệu, cập nhật DWH, và gửi thông báo khi hoàn thành.
+
+** Mục 5 và 6 sẽ có buổi Meet hướng dẫn tạo luồng dữ liệu để tiền xử lý dữ liệu và import data vào các bảng trong Database **
+
 
 ### 7. **Nghiên cứu & Chuẩn bị tài khoản cá nhân PowerBI/ Excel**:
    - **Mục tiêu**: Sử dụng các công cụ trực quan hóa dữ liệu để tạo báo cáo từ dữ liệu trong DWH.

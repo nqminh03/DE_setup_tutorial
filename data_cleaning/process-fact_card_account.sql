@@ -1,0 +1,14 @@
+CREATE TABLE fact_card_account_avg (
+    ACCOUNT_DIM_ID INT,
+    AVG_CARD_SPEND DECIMAL(15, 2)
+);
+
+INSERT INTO fact_card_account_avg (
+    ACCOUNT_DIM_ID,
+    AVG_CARD_SPEND
+)
+SELECT 
+    ACCOUNT_DIM_ID,
+    AVG(CREDIT_CARD_SPEND_AMT) AS AVG_CARD_SPEND
+FROM fact_card_account
+GROUP BY ACCOUNT_DIM_ID;

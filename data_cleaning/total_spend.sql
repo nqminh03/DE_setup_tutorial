@@ -1,0 +1,4 @@
+SELECT * FROM datamart.fact_customer_spend;
+
+UPDATE fact_customer_spend
+SET TOTAL_SPEND = TOTAL_CREDIT_CARD_SPEND + TOTAL_INSURANCE_POLICY + TOTAL_OVERDRAFT_SPEND;
